@@ -22,7 +22,7 @@ public class MongoTest {
 	public static void main(String[] args) {
 		MongoDAO mongoDAO = new MongoDAO();
 		mongoDAO.connect();
-		mongoDAO.setDataBase("HABLERT4566");
+		mongoDAO.setDataBase("username for database or class here");
 		mongoDAO.setCollection("Movies");
 		mongoDAO.deleteAll();
 		mongoDAO.insertOne("{ 'title' : 'Before The Rain' , 'year' : 2019 }");
