@@ -74,7 +74,7 @@ public class MongoDAO {
 
     private static String getPW () {
 
-        return new String("8BKPJKUV");
+        return new String("user password here");
     }
     public void insertOne(String jsonString){
         Document doc = Document.parse(jsonString);
