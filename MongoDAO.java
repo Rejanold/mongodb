@@ -21,7 +21,7 @@ public class MongoDAO {
 
     public void connect(){
         // set up credentials - user, authenticationDB, pw (all case-sensitive)
-        credential = MongoCredential.createCredential("HABLERT4566","CS260", getPW().toCharArray());
+        credential = MongoCredential.createCredential("user name here","CS260", getPW().toCharArray());
         // make a client connection to the remote MongoDB database instance (host, port)  - with credentials
         client = new MongoClient(new ServerAddress("10.35.195.203", 27017), Arrays.asList(credential));
     }
